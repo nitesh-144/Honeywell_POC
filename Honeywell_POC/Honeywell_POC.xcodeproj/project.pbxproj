@@ -14,6 +14,8 @@
 		80389FB225B7E6DC007B6B98 /* Honeywell_POCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80389FB125B7E6DC007B6B98 /* Honeywell_POCUITests.swift */; };
 		80389FC225B7E9CA007B6B98 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80389FC125B7E9CA007B6B98 /* AppConstants.swift */; };
 		80389FC525B7EA67007B6B98 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80389FC425B7EA67007B6B98 /* Configuration.swift */; };
+		80389FC825B7EF41007B6B98 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80389FC725B7EF41007B6B98 /* APIManager.swift */; };
+		80389FCA25B7F189007B6B98 /* CanadaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80389FC925B7F189007B6B98 /* CanadaModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		80389FB325B7E6DC007B6B98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		80389FC125B7E9CA007B6B98 /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
 		80389FC425B7EA67007B6B98 /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		80389FC725B7EF41007B6B98 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		80389FC925B7F189007B6B98 /* CanadaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanadaModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				80389FC425B7EA67007B6B98 /* Configuration.swift */,
+				80389FC725B7EF41007B6B98 /* APIManager.swift */,
 			);
 			path = APIManager;
 			sourceTree = "<group>";
@@ -153,6 +158,7 @@
 		80389FC625B7EDC1007B6B98 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				80389FC925B7F189007B6B98 /* CanadaModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -287,9 +293,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80389FC825B7EF41007B6B98 /* APIManager.swift in Sources */,
 				80389FC525B7EA67007B6B98 /* Configuration.swift in Sources */,
 				80389FC225B7E9CA007B6B98 /* AppConstants.swift in Sources */,
 				80389F9025B7E6D5007B6B98 /* AppDelegate.swift in Sources */,
+				80389FCA25B7F189007B6B98 /* CanadaModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

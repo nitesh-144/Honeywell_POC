@@ -8,6 +8,18 @@
 
 import Foundation
 
+//MARK:- Enum to map API Request methods
+enum APIMethod:String{
+    case get = "GET"
+    case post = "POST"
+}
+
+//MARK:- Enum to map different status codes
+enum HTTPStatusCodes: Int{
+    case _200 = 200
+    case _404 = 404
+}
+
 //MARK:- Enum to map different server environment
 enum ServerEnvironment{
     
