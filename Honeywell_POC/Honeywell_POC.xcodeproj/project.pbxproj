@@ -8,11 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		80389F9025B7E6D5007B6B98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80389F8F25B7E6D5007B6B98 /* AppDelegate.swift */; };
-		80389F9425B7E6D5007B6B98 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80389F9325B7E6D5007B6B98 /* ViewController.swift */; };
 		80389F9925B7E6DC007B6B98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80389F9825B7E6DC007B6B98 /* Assets.xcassets */; };
 		80389F9C25B7E6DC007B6B98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80389F9A25B7E6DC007B6B98 /* LaunchScreen.storyboard */; };
 		80389FA725B7E6DC007B6B98 /* Honeywell_POCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80389FA625B7E6DC007B6B98 /* Honeywell_POCTests.swift */; };
 		80389FB225B7E6DC007B6B98 /* Honeywell_POCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80389FB125B7E6DC007B6B98 /* Honeywell_POCUITests.swift */; };
+		80389FC225B7E9CA007B6B98 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80389FC125B7E9CA007B6B98 /* AppConstants.swift */; };
+		80389FC525B7EA67007B6B98 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80389FC425B7EA67007B6B98 /* Configuration.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +36,6 @@
 /* Begin PBXFileReference section */
 		80389F8C25B7E6D5007B6B98 /* Honeywell_POC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Honeywell_POC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80389F8F25B7E6D5007B6B98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		80389F9325B7E6D5007B6B98 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		80389F9825B7E6DC007B6B98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80389F9B25B7E6DC007B6B98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		80389F9D25B7E6DC007B6B98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +45,8 @@
 		80389FAD25B7E6DC007B6B98 /* Honeywell_POCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Honeywell_POCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		80389FB125B7E6DC007B6B98 /* Honeywell_POCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Honeywell_POCUITests.swift; sourceTree = "<group>"; };
 		80389FB325B7E6DC007B6B98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80389FC125B7E9CA007B6B98 /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		80389FC425B7EA67007B6B98 /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +97,11 @@
 		80389F8E25B7E6D5007B6B98 /* Honeywell_POC */ = {
 			isa = PBXGroup;
 			children = (
+				80389FC625B7EDC1007B6B98 /* Models */,
+				80389FC325B7E9D6007B6B98 /* APIManager */,
+				80389FC025B7E9B4007B6B98 /* CustomUIs */,
+				80389FBF25B7E9A5007B6B98 /* SupportingFiles */,
 				80389F8F25B7E6D5007B6B98 /* AppDelegate.swift */,
-				80389F9325B7E6D5007B6B98 /* ViewController.swift */,
 				80389F9825B7E6DC007B6B98 /* Assets.xcassets */,
 				80389F9A25B7E6DC007B6B98 /* LaunchScreen.storyboard */,
 				80389F9D25B7E6DC007B6B98 /* Info.plist */,
@@ -120,6 +125,36 @@
 				80389FB325B7E6DC007B6B98 /* Info.plist */,
 			);
 			path = Honeywell_POCUITests;
+			sourceTree = "<group>";
+		};
+		80389FBF25B7E9A5007B6B98 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				80389FC125B7E9CA007B6B98 /* AppConstants.swift */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		80389FC025B7E9B4007B6B98 /* CustomUIs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CustomUIs;
+			sourceTree = "<group>";
+		};
+		80389FC325B7E9D6007B6B98 /* APIManager */ = {
+			isa = PBXGroup;
+			children = (
+				80389FC425B7EA67007B6B98 /* Configuration.swift */,
+			);
+			path = APIManager;
+			sourceTree = "<group>";
+		};
+		80389FC625B7EDC1007B6B98 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -252,7 +287,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80389F9425B7E6D5007B6B98 /* ViewController.swift in Sources */,
+				80389FC525B7EA67007B6B98 /* Configuration.swift in Sources */,
+				80389FC225B7E9CA007B6B98 /* AppConstants.swift in Sources */,
 				80389F9025B7E6D5007B6B98 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
