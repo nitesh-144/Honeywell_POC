@@ -14,8 +14,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
-        
+
+        //Setting up the UI
+        let homeStoryboard = UIStoryboard.init(name: "Home", bundle: Bundle.main)
+        let rootVC = homeStoryboard.instantiateViewController(withIdentifier: "MainNavController") as! UINavigationController
+
+        //Test code to check the api response
         APIManager.shared.processAPIRequest(forRequestMethod: .get, withAPIEndpoint: APIEndPoints.getDetailAboutCanada.getURL()!) { (flag, message, record:CanadaModel?) in
             
             if flag == true{
