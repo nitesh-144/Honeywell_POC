@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		80389F9025B7E6D5007B6B98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80389F8F25B7E6D5007B6B98 /* AppDelegate.swift */; };
+		80389F9425B7E6D5007B6B98 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80389F9325B7E6D5007B6B98 /* ViewController.swift */; };
+		80389F9925B7E6DC007B6B98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80389F9825B7E6DC007B6B98 /* Assets.xcassets */; };
+		80389F9C25B7E6DC007B6B98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80389F9A25B7E6DC007B6B98 /* LaunchScreen.storyboard */; };
+		80389FA725B7E6DC007B6B98 /* Honeywell_POCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80389FA625B7E6DC007B6B98 /* Honeywell_POCTests.swift */; };
+		80389FB225B7E6DC007B6B98 /* Honeywell_POCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80389FB125B7E6DC007B6B98 /* Honeywell_POCUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		80389FA325B7E6DC007B6B98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80389F8425B7E6D5007B6B98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80389F8B25B7E6D5007B6B98;
+			remoteInfo = Honeywell_POC;
+		};
+		80389FAE25B7E6DC007B6B98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80389F8425B7E6D5007B6B98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80389F8B25B7E6D5007B6B98;
+			remoteInfo = Honeywell_POC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		80389F8C25B7E6D5007B6B98 /* Honeywell_POC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Honeywell_POC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80389F8F25B7E6D5007B6B98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		80389F9325B7E6D5007B6B98 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		80389F9825B7E6DC007B6B98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		80389F9B25B7E6DC007B6B98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		80389F9D25B7E6DC007B6B98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80389FA225B7E6DC007B6B98 /* Honeywell_POCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Honeywell_POCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80389FA625B7E6DC007B6B98 /* Honeywell_POCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Honeywell_POCTests.swift; sourceTree = "<group>"; };
+		80389FA825B7E6DC007B6B98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80389FAD25B7E6DC007B6B98 /* Honeywell_POCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Honeywell_POCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80389FB125B7E6DC007B6B98 /* Honeywell_POCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Honeywell_POCUITests.swift; sourceTree = "<group>"; };
+		80389FB325B7E6DC007B6B98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80389F8925B7E6D5007B6B98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80389F9F25B7E6DC007B6B98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80389FAA25B7E6DC007B6B98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80389F8325B7E6D5007B6B98 = {
+			isa = PBXGroup;
+			children = (
+				80389F8E25B7E6D5007B6B98 /* Honeywell_POC */,
+				80389FA525B7E6DC007B6B98 /* Honeywell_POCTests */,
+				80389FB025B7E6DC007B6B98 /* Honeywell_POCUITests */,
+				80389F8D25B7E6D5007B6B98 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		80389F8D25B7E6D5007B6B98 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80389F8C25B7E6D5007B6B98 /* Honeywell_POC.app */,
+				80389FA225B7E6DC007B6B98 /* Honeywell_POCTests.xctest */,
+				80389FAD25B7E6DC007B6B98 /* Honeywell_POCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80389F8E25B7E6D5007B6B98 /* Honeywell_POC */ = {
+			isa = PBXGroup;
+			children = (
+				80389F8F25B7E6D5007B6B98 /* AppDelegate.swift */,
+				80389F9325B7E6D5007B6B98 /* ViewController.swift */,
+				80389F9825B7E6DC007B6B98 /* Assets.xcassets */,
+				80389F9A25B7E6DC007B6B98 /* LaunchScreen.storyboard */,
+				80389F9D25B7E6DC007B6B98 /* Info.plist */,
+			);
+			path = Honeywell_POC;
+			sourceTree = "<group>";
+		};
+		80389FA525B7E6DC007B6B98 /* Honeywell_POCTests */ = {
+			isa = PBXGroup;
+			children = (
+				80389FA625B7E6DC007B6B98 /* Honeywell_POCTests.swift */,
+				80389FA825B7E6DC007B6B98 /* Info.plist */,
+			);
+			path = Honeywell_POCTests;
+			sourceTree = "<group>";
+		};
+		80389FB025B7E6DC007B6B98 /* Honeywell_POCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				80389FB125B7E6DC007B6B98 /* Honeywell_POCUITests.swift */,
+				80389FB325B7E6DC007B6B98 /* Info.plist */,
+			);
+			path = Honeywell_POCUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80389F8B25B7E6D5007B6B98 /* Honeywell_POC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80389FB625B7E6DC007B6B98 /* Build configuration list for PBXNativeTarget "Honeywell_POC" */;
+			buildPhases = (
+				80389F8825B7E6D5007B6B98 /* Sources */,
+				80389F8925B7E6D5007B6B98 /* Frameworks */,
+				80389F8A25B7E6D5007B6B98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Honeywell_POC;
+			productName = Honeywell_POC;
+			productReference = 80389F8C25B7E6D5007B6B98 /* Honeywell_POC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		80389FA125B7E6DC007B6B98 /* Honeywell_POCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80389FB925B7E6DC007B6B98 /* Build configuration list for PBXNativeTarget "Honeywell_POCTests" */;
+			buildPhases = (
+				80389F9E25B7E6DC007B6B98 /* Sources */,
+				80389F9F25B7E6DC007B6B98 /* Frameworks */,
+				80389FA025B7E6DC007B6B98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80389FA425B7E6DC007B6B98 /* PBXTargetDependency */,
+			);
+			name = Honeywell_POCTests;
+			productName = Honeywell_POCTests;
+			productReference = 80389FA225B7E6DC007B6B98 /* Honeywell_POCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		80389FAC25B7E6DC007B6B98 /* Honeywell_POCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80389FBC25B7E6DC007B6B98 /* Build configuration list for PBXNativeTarget "Honeywell_POCUITests" */;
+			buildPhases = (
+				80389FA925B7E6DC007B6B98 /* Sources */,
+				80389FAA25B7E6DC007B6B98 /* Frameworks */,
+				80389FAB25B7E6DC007B6B98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80389FAF25B7E6DC007B6B98 /* PBXTargetDependency */,
+			);
+			name = Honeywell_POCUITests;
+			productName = Honeywell_POCUITests;
+			productReference = 80389FAD25B7E6DC007B6B98 /* Honeywell_POCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80389F8425B7E6D5007B6B98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = freedom;
+				TargetAttributes = {
+					80389F8B25B7E6D5007B6B98 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					80389FA125B7E6DC007B6B98 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 80389F8B25B7E6D5007B6B98;
+					};
+					80389FAC25B7E6DC007B6B98 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 80389F8B25B7E6D5007B6B98;
+					};
+				};
+			};
+			buildConfigurationList = 80389F8725B7E6D5007B6B98 /* Build configuration list for PBXProject "Honeywell_POC" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 80389F8325B7E6D5007B6B98;
+			productRefGroup = 80389F8D25B7E6D5007B6B98 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80389F8B25B7E6D5007B6B98 /* Honeywell_POC */,
+				80389FA125B7E6DC007B6B98 /* Honeywell_POCTests */,
+				80389FAC25B7E6DC007B6B98 /* Honeywell_POCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80389F8A25B7E6D5007B6B98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80389F9C25B7E6DC007B6B98 /* LaunchScreen.storyboard in Resources */,
+				80389F9925B7E6DC007B6B98 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80389FA025B7E6DC007B6B98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80389FAB25B7E6DC007B6B98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80389F8825B7E6D5007B6B98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80389F9425B7E6D5007B6B98 /* ViewController.swift in Sources */,
+				80389F9025B7E6D5007B6B98 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80389F9E25B7E6DC007B6B98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80389FA725B7E6DC007B6B98 /* Honeywell_POCTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80389FA925B7E6DC007B6B98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80389FB225B7E6DC007B6B98 /* Honeywell_POCUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		80389FA425B7E6DC007B6B98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80389F8B25B7E6D5007B6B98 /* Honeywell_POC */;
+			targetProxy = 80389FA325B7E6DC007B6B98 /* PBXContainerItemProxy */;
+		};
+		80389FAF25B7E6DC007B6B98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80389F8B25B7E6D5007B6B98 /* Honeywell_POC */;
+			targetProxy = 80389FAE25B7E6DC007B6B98 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		80389F9A25B7E6DC007B6B98 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80389F9B25B7E6DC007B6B98 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		80389FB425B7E6DC007B6B98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		80389FB525B7E6DC007B6B98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80389FB725B7E6DC007B6B98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7L4Y4BX2C7;
+				INFOPLIST_FILE = Honeywell_POC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.freedom.Honeywell-POC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		80389FB825B7E6DC007B6B98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7L4Y4BX2C7;
+				INFOPLIST_FILE = Honeywell_POC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.freedom.Honeywell-POC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		80389FBA25B7E6DC007B6B98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7L4Y4BX2C7;
+				INFOPLIST_FILE = Honeywell_POCTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.freedom.Honeywell-POCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Honeywell_POC.app/Honeywell_POC";
+			};
+			name = Debug;
+		};
+		80389FBB25B7E6DC007B6B98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7L4Y4BX2C7;
+				INFOPLIST_FILE = Honeywell_POCTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.freedom.Honeywell-POCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Honeywell_POC.app/Honeywell_POC";
+			};
+			name = Release;
+		};
+		80389FBD25B7E6DC007B6B98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7L4Y4BX2C7;
+				INFOPLIST_FILE = Honeywell_POCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.freedom.Honeywell-POCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Honeywell_POC;
+			};
+			name = Debug;
+		};
+		80389FBE25B7E6DC007B6B98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7L4Y4BX2C7;
+				INFOPLIST_FILE = Honeywell_POCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.freedom.Honeywell-POCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Honeywell_POC;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80389F8725B7E6D5007B6B98 /* Build configuration list for PBXProject "Honeywell_POC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80389FB425B7E6DC007B6B98 /* Debug */,
+				80389FB525B7E6DC007B6B98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80389FB625B7E6DC007B6B98 /* Build configuration list for PBXNativeTarget "Honeywell_POC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80389FB725B7E6DC007B6B98 /* Debug */,
+				80389FB825B7E6DC007B6B98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80389FB925B7E6DC007B6B98 /* Build configuration list for PBXNativeTarget "Honeywell_POCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80389FBA25B7E6DC007B6B98 /* Debug */,
+				80389FBB25B7E6DC007B6B98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80389FBC25B7E6DC007B6B98 /* Build configuration list for PBXNativeTarget "Honeywell_POCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80389FBD25B7E6DC007B6B98 /* Debug */,
+				80389FBE25B7E6DC007B6B98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 80389F8425B7E6D5007B6B98 /* Project object */;
+}
