@@ -8,15 +8,20 @@
 
 import Foundation
 
-//MARK:- Codable struct model to map main json response
-struct CanadaModel: Codable{
-    var title: String = ""
-    var rows: [CanadaDetailModel] = []
+// MARK: - CanadaModel
+struct CanadaModel: Codable {
+    let title: String
+    let rows: [Row]
 }
 
-//MARK:- Codable struct model to map detail response
-struct CanadaDetailModel: Codable{
-    var title:String?
-    var description: String?
-    var imageHref: URL?
+// MARK: - Row Model
+struct Row: Codable {
+    let title, rowDescription: String?
+    let imageHref: String?
+
+    enum CodingKeys: String, CodingKey {
+        case title
+        case rowDescription = "description"
+        case imageHref
+    }
 }
