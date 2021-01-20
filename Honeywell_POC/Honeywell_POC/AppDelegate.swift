@@ -18,6 +18,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         //Setting up the UI
         let homeStoryboard = UIStoryboard.init(name: "Home", bundle: Bundle.main)
         let rootVC = homeStoryboard.instantiateViewController(withIdentifier: "MainNavController") as! UINavigationController
+        application.keyWindow?.rootViewController = rootVC
+        application.keyWindow?.makeKeyAndVisible()
 
         //Test code to check the api response
         APIManager.shared.processAPIRequest(forRequestMethod: .get, withAPIEndpoint: APIEndPoints.getDetailAboutCanada.getURL()!) { (flag, message, record:CanadaModel?) in
