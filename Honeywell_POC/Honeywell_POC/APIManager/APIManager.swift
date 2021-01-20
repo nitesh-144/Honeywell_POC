@@ -36,8 +36,13 @@ class APIManager{
                     switch status{
                     case ._200:
                         do{
-                            let responseObj = try JSONDecoder().decode(T.self, from: responseData!)
-                            completionHandler(true,APPConstants.APIStrings.SUCCESS_RESPONSE_MESSAGE,responseObj)
+                            let utf8String = String(data: responseData!, encoding: .isoLatin1)
+                            if let dataFromUTF8String = utf8String!.data(using: .utf8){
+                                let responseObj = try JSONDecoder().decode(T.self, from: dataFromUTF8String)
+                                completionHandler(true,APPConstants.APIStrings.SUCCESS_RESPONSE_MESSAGE,responseObj)
+                            }else{
+                                completionHandler(false,APPConstants.APIStrings.DATA_PARSING_ERROR,nil)
+                            }
                         }catch let error{
                             completionHandler(false,error.localizedDescription,nil)
                         }
